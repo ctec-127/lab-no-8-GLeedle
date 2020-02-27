@@ -4,9 +4,56 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fafafa;
 }
 
-th a:link, th a:visited, th a:hover, th a:active {
+nav {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+
+.container {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    background-image: url(../img/sky.jpg);
+    background-position: bottom;
+    border-radius: 10px;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.dropdown-menu {
+    background-color: #343A40;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .8);
+}
+
+.dropdown-item {
     color: #ffffff;
+}
+
+.btn {
+    box-shadow: 5px 5px 10px rgba(36, 55, 143, 0.4);
+}
+
+footer {
+    text-align: center;
+    background-color: #343A40;
+    width: 100%;
+    color: #fff;
+    padding: 1em;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, .3);
+}
+
+.col-info {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1em;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+li {
+    padding: .5em;
+}
+
+label {
+    border-radius: 5px;
 }
