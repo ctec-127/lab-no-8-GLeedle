@@ -9,11 +9,11 @@
     <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <div class="row">
             <div class="col-3">
-                <label for="temp" class="bg-primary text-white p-2">Temperature</label>
+                <label for="temp" class="bg-dark text-white p-2">Temperature</label>
                 <input class="form-control" type="text" value="<?php if (isset($_POST['originaltemp'])) echo $_POST['originaltemp']; ?>" name="originaltemp" size="7" maxlength="7" id="temp">
             </div>
             <div class="col-3">
-                <label for="temp" class="bg-primary text-white p-2">Convert Temperature from:</label>
+                <label for="temp" class="bg-dark text-white p-2">Convert Temperature from:</label>
                 <select class="form-control" name="originalunit" id="original-temp">
                     <option value="--Select--" <?php if ($originalUnit == "--Select--") echo ' selected="selected"'; ?>>--Select--</option>
                     <option value="celsius" <?php if ($originalUnit == "celsius") echo ' selected="selected"'; ?>>Celsius</option>
@@ -22,7 +22,7 @@
                 </select>
             </div>
             <div class="col-3">
-                <label for="convertedtemp" class="bg-primary text-white p-2">
+                <label for="convertedtemp" class="bg-dark text-white p-2">
                     Convert Temperature to:
                 </label>
                 <select class="form-control" name="conversionunit">
@@ -34,7 +34,7 @@
                 <input type="submit" class="btn btn-warning  my-2 w-100" value="Convert Temperature" />
             </div>
             <div class="col-3">
-                <label for="convertedtemp" class="bg-primary text-white p-2">
+                <label for="convertedtemp" class="bg-dark text-white p-2">
                     Converted Temperature
                 </label>
                 <input class="form-control text-center btn btn-danger" type="text" value="<?php if (isset($_POST['originaltemp'])) echo round($convertedTemp, 1);

@@ -12,17 +12,17 @@ nav {
 
 .container {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
-    background-image: url(../img/sky.jpg);
+    background-image: url(../img/sky2.jpg);
     background-position: bottom;
     border-radius: 10px;
 }
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .dropdown-menu {
-    background-color: #343A40;
+    background-color: rgba(52, 58, 64, 0.5);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .8);
 }
 
@@ -36,7 +36,7 @@ nav {
 
 footer {
     text-align: center;
-    background-color: #343A40;
+    background-color: #6C757D;
     width: 100%;
     color: #fff;
     padding: 1em;
@@ -44,7 +44,7 @@ footer {
 }
 
 .col-info {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .2);
     padding: 1em;
     border-radius: 10px;
     color: #ffffff;
